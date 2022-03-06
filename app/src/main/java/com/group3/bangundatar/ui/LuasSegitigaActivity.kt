@@ -17,7 +17,7 @@ class LuasSegitigaActivity : AppCompatActivity() {
         segitigaBinding.apply {
             btnHitung.setOnClickListener {
                 val alas = edtAlas.text.toString().trim()
-                val tinggi = edtTinggi.text.toString().trim()
+                var tinggi = edtTinggi.text.toString().trim()
                 when {
                     alas.isEmpty() -> {
                         edtAlas.error = "Field ini tidak boleh kosong"
@@ -26,7 +26,7 @@ class LuasSegitigaActivity : AppCompatActivity() {
                         edtTinggi.error = "Field ini tidak boleh kosong"
                     }
                     else -> {
-                        val hasil = 0 //Isikan dulu rumusnya disini ya
+                        val hasil = 0.5 * alas.toDouble() * tinggi.toDouble()
                         tvHasil.text = hasil.toString()
                     }
                 }
