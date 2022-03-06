@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Bangun Datar</string>
+    <string name="logo_app">Logo application</string>
+    <string name="menghitung_luas_lingkaran">Menghitung luas lingkaran</string>
+    <string name="menghitung_luas_persegi">Menghitung luas persegi</string>
+    <string name="menghitung_luas_persegi_panjang">Menghitung luas persegi panjang</string>
+    <string name="menghitung_luas_segitiga">Menghitung luas segitiga</string>
+    <string name="menghitung_luas_jajar_genjang">Menghitung luas jajar genjang</string>
+    <string name="menghitung_luas_trapesium">Menghitung luas trapesium</string>
+    <string name="menghitung_luas_layang_layang">Menghitung luas layang-layang</string>
+    <string name="menghitung_luas_belah_ketupat">Menghitung luas belah ketupat</string>
+    <string name="gambar_belah_ketupat">Gambar belah ketupat</string>
+    <string name="masukkan_panjang_diagonal_1">Masukkan panjang diagonal 1</string>
+    <string name="diagonal_1">Diagonal 1</string>
+    <string name="diagonal_2">Diagonal 2</string>
+    <string name="masukkan_panjang_diagonal_2">Masukkan panjang diagonal 2</string>
+    <string name="hitung">Hitung!</string>
+    <string name="hasil">Hasil</string>
+    <string name="jari_jari">Jari-jari</string>
+    <string name="masukkan_panjang_jari_jari">Masukkan panjang jari-jari</string>
+    <string name="sisi">Sisi</string>
+    <string name="masukkan_panjang_sisi">Masukkan panjang sisi</string>
+    <string name="panjang">Panjang</string>
+    <string name="masukkan_panjang">Masukkan panjang</string>
+    <string name="lebar">Lebar</string>
+    <string name="masukkan_lebar">Masukkan Lebar</string>
+    <string name="alas">Alas</string>
+    <string name="tinggi">Tinggi</string>
+    <string name="masukkan_panjang_alas">Masukkan panjang alas</string>
+    <string name="masukkan_panjang_tinggi">Masukkan panjang tinggi</string>
+    <string name="sisi1">Sisi 1</string>
+    <string name="sisi2">Sisi 2</string>
+    <string name="masukkan_panjang_sisi_1">Masukkan panjang sisi 1</string>
+    <string name="masukkan_panjang_sisi_2">Masukkan panjang sisi 2</string>
+</resources>
