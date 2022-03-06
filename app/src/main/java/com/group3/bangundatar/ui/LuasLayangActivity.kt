@@ -26,7 +26,7 @@ class LuasLayangActivity : AppCompatActivity() {
                         edtDiagonal2.error = "Field ini tidak boleh kosong"
                     }
                     else -> {
-                        val hasil = 0 //Isikan dulu rumusnya disini ya
+                        val hasil = (diagonal1.toDouble() * diagonal2.toDouble())/2
                         tvHasil.text = hasil.toString()
                     }
                 }

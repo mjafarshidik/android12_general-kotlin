@@ -24,7 +24,7 @@ class LuasLingkaranActivity : AppCompatActivity() {
                     }
                     else -> {
                         val phi = 3.14
-                        val hasil = 0 //Isikan dulu rumusnya disini ya
+                        val hasil = (jariJari.toDouble() * jariJari.toDouble()) * phi
                         tvHasil.text = hasil.toString()
                     }
                 }
