@@ -23,7 +23,7 @@ class LuasPersegiActivity : AppCompatActivity() {
                         edtSisi.error = "Field ini tidak boleh kosong"
                     }
                     else -> {
-                        val hasil = 0 //Isikan dulu rumusnya disini ya
+                        val hasil = sisi.toDouble() * sisi.toDouble()
                         tvHasil.text = hasil.toString()
                     }
                 }
