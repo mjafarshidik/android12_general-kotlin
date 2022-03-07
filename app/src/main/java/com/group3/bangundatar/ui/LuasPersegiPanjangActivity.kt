@@ -26,7 +26,7 @@ class LuasPersegiPanjangActivity : AppCompatActivity() {
                         edtLebar.error = "Field ini tidak boleh kosong"
                     }
                     else -> {
-                        val hasil = 0 //Isikan dulu rumusnya disini ya
+                        val hasil = panjang.toDouble() * lebar.toDouble()
                         tvHasil.text = hasil.toString()
                     }
                 }
