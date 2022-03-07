@@ -26,7 +26,8 @@ class LuasJajarGenjangActivity : AppCompatActivity() {
                         edtTinggi.error = "Field ini tidak boleh kosong"
                     }
                     else -> {
-                        val hasil = 0 //Isikan dulu rumusnya disini ya
+                        //done fixed
+                        val hasil = alas.toDouble() * tinggi.toDouble()
                         tvHasil.text = hasil.toString()
                     }
                 }
