@@ -31,7 +31,7 @@ class LuasTrapesiumActivity : AppCompatActivity() {
                         edtTinggi.error = "Field ini tidak boleh kosong"
                     }
                     else -> {
-                        val hasil = 0 //Isikan dulu rumusnya disini ya
+                        val hasil = 0.5 * (sisi1.toDouble() + sisi2.toDouble()) * tinggi.toDouble()
                         tvHasil.text = hasil.toString()
                     }
                 }
